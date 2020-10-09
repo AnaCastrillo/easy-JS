@@ -43,10 +43,15 @@ colorName.classList.remove("green");
 block.classList.remove("red");
 colorName.classList.remove("red");
 
-block.classList.remove("blue");
-colorName.classList.remove("blue");
+
+
 
 // PERO POR QUÉ
 // por qué no necesito hacer lo mismo para el HTML?
 // Porque el innerHTML no está añadiendo contenido a lo que ya hay, sino SUSTITUYENDO 
 // lo que tiene el HTML por defecto, por aquello que estas escribiendo en JS
+
+// "RESET"
+block.classList.remove("blue");
+colorName.classList.remove("blue");
+colorName.innerHTML = "None";
