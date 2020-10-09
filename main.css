@@ -1,0 +1,48 @@
+body {
+  background-color: midnightblue;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: midnightblue;
+  opacity: 0.6;
+}
+a:hover {
+  font-weight: bold;
+  color: gold;
+  opacity: 1;
+}
+
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background-color: snow;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.title,
+.list {
+  width: 50%;
+}
+
+h1,
+h2 {
+  color: midnightblue;
+}
+
+.repoLink {
+  color: navajowhite;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
