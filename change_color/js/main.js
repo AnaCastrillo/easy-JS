@@ -7,7 +7,7 @@ const redSelector = document.querySelector(".js-red");
 const greenSelector = document.querySelector(".js-green");
 const blueSelector = document.querySelector(".js-blue");
 
-
+function add(a){
   block.classList.add(a);
   colorName.classList.add(a);
   colorName.innerHTML = a;
