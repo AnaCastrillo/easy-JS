@@ -5,15 +5,11 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 400;
   color: midnightblue;
-  opacity: 0.6;
 }
 a:hover {
   font-weight: bold;
   color: gold;
-  opacity: 1;
 }
 
 ol {
@@ -38,6 +34,13 @@ ol {
 h1,
 h2 {
   color: midnightblue;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 16px;
+  color: midnightblue;
+  margin: 0;
 }
 
 .repoLink {
