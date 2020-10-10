@@ -1,6 +1,7 @@
 // SWITCH THE LIGHT
 
 const light = document.querySelector(".light");
+const switchLight = document.querySelector(".switch");
 
 let power = true;
 
